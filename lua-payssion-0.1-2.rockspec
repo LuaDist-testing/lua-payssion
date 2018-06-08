@@ -1,16 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-payssion"
-version = "0.1-1"
+version = "0.1-2"
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.1-2",
   url = "git://github.com/LuaDist-testing/lua-payssion.git"
 }
 -- Original source
 -- source = {
---     url = "git://github.com/paragasu/lua-payssion.git"
+--     url = "git://github.com/paragasu/lua-payssion.git",
+--     tag = "0.1-2"
 -- }
 
 description = {
