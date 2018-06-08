@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-payssion"
-version = "0.1-3"
+version = "0.1-4"
 
 -- LuaDist source
 source = {
-  tag = "0.1-3",
+  tag = "0.1-4",
   url = "git://github.com/LuaDist-testing/lua-payssion.git"
 }
 -- Original source
 -- source = {
 --     url = "git://github.com/paragasu/lua-payssion.git",
---     tag = "0.1-3"
+--     tag = "0.1-4"
 -- }
 
 description = {
@@ -23,7 +23,8 @@ description = {
 
 dependencies = {
     "lua = 5.1",
-    "lua-requests",
+    "lua-cjson",
+    "lua-resty-http",
     "md5"
 }
 
